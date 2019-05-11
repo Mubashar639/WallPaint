@@ -49,7 +49,7 @@ class Grid extends React.Component {
                         </Col>
                         <Col span={6} style={{minWidth:"300px"}} >
                         <div >
-              <img style={{width:"100%"}} src={rightimage} alt="connection slow" />
+                       <img className= "Banner1" style={{width:"100%"}} src={rightimage} alt="connection slow" />
                         </div>
                         </Col>
                     </Row>

@@ -39,11 +39,17 @@ hr {
     height: auto;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   .frontBanner {
     margin-left: -1050px;
     margin-top: -100px;
     height: auto;
+  }
+  .Banner1{
+    display: none;
+  }
+  .banner{
+    height: auto !important;
   }
 }
   .ant-carousel .slick-slide {

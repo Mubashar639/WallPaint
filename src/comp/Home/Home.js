@@ -3,6 +3,8 @@ import SlideImage from '../sharedCompunents/slideimage';
 import Banner1 from "../../asset/main/1.jpg"
 import Banner2 from "../../asset/main/2.jpg"
 import Grid from './grid';
+import CallBanner from '../sharedCompunents/callBanner';
+
 class Home extends React.Component {
   constructor(props) {
     super(props)
@@ -31,6 +33,7 @@ class Home extends React.Component {
       <div>
         <SlideImage bg1={Banner1} bg2={Banner2} />
         <Grid details={this.state.colums} />
+        <CallBanner />
       </div>
     )
   }
