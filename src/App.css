@@ -28,3 +28,57 @@ hr {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
   }
+  .frontBanner {
+    margin-left: -200px;
+    height: auto;
+  }
+
+@media only screen and (max-width: 1100px) {
+  .frontBanner {
+    margin-left: -800px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .frontBanner {
+    margin-left: -1050px;
+    margin-top: -100px;
+    height: auto;
+  }
+}
+  .ant-carousel .slick-slide {
+   margin-top: 10px;
+    
+ 
+    background: #364d79;
+    overflow: hidden;
+  }
+.gridItem{
+  position: relative;
+  text-align: center;
+  padding: 40px 35px;
+  overflow: hidden;
+   min-width: 360px;
+  margin-bottom: 20px;
+  background: #F2F9FF; 
+  cursor:pointer;
+  z-index: 100;
+  /* transition: background-color 2s ease-; */
+  transition: all 2s ease-in-out;
+
+}
+.girdHeading{
+  font-family: 'Raleway', sans-serif;
+  color: #1c1c1c;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.gridItem:hover{
+  background-image: url("./asset/promo/01.jpg");
+  opacity: 1;
+  background-color: rgba(1, 82,159, 0.6)
+ 
+}

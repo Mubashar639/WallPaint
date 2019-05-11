@@ -16,7 +16,7 @@ class Main extends React.Component {
           <Route path="/home2" component={Dashboard} />
           <Route path="/home2" component={Signin} />
           <Route path="/aboutus" component={Signup} />
-          <Route path="/home1" component={Home} />
+          <Route path="/home" component={Home} />
         </Switch>
 
       </BrowserRouter>

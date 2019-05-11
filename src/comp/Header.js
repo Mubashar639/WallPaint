@@ -17,7 +17,7 @@ class Header extends React.Component {
   componentDidMount() {
     const { location } = this.props;
     switch (location.pathname) {
-      case "/home:1":
+      case "/home":
         this.setState({ default_selected: "1" })
         break;
       case "/home:2":
@@ -64,8 +64,10 @@ class Header extends React.Component {
             
            
           >
-            <SubMenu title={<h3 className="submenu-title-wrapper">HOME</h3>}>
-           <Menu.Item key="1">HOME 1</Menu.Item>
+            <SubMenu onClick={(evt) => this.selectedTeb(evt.key)} title={<h3 className="submenu-title-wrapper">HOME</h3>}>
+           <Menu.Item key="1">
+         <Link to="home" > HOME 1 </Link>
+           </Menu.Item>
            <hr />
            <Menu.Item key="1.1">HOME 2</Menu.Item>
           </SubMenu>
